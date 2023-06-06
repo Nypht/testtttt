@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lingerie de la semaine</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Styles pour l'indicateur de chargement */
+    .loading::before {
+      content: "Chargement...";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      z-index: 9999;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="img\logo.png" alt="Logo de mon site">
+          <h1>SELEC'SEMAINE</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Produits</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+  
+  <main>
+    <section class="featured-lingerie">
+      <h2>Lingerie de la semaine</h2>
+      <div class="slideshow">
+        <img src="img\653943569_x.jpg" alt="Lingerie 1">
+        <img src="img\653943569_c.jpg" alt="Lingerie 2">
+        <img src="img\653943569_b.jpg" alt="Lingerie 3">
+      </div>
+      <p>Découvrez notre lingerie de la semaine, alliant confort et sensualité pour des moments inoubliables.</p>
+      <a href="pay.html" class="buy-now-button" id="buy-now-button">Acheter maintenant</a>
+
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Lingerie de la semaine</p>
+  </footer>
+  
+  <script src="script.js"></script>
+ 
+</body>
+</html>
